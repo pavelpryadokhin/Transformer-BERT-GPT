@@ -2,6 +2,9 @@
 Работа с моделями в области NLP, изучение их архитектуры.
 
 ## Файл Transformer
+
+[Код в colab](https://colab.research.google.com/drive/14ra4WoWFtYLq5llqA9AHo8gW0brE6IZS?usp=sharing)
+
 Взята классическая архитектура трансформера (статья [Attention is All You Need](https://arxiv.org/pdf/1706.03762))
 * Был построен трансформер для задачи question answering.
 * В качестве основы был использован датасет, доступный на [HuggingFace](https://huggingface.co/datasets/Den4ikAI/russian_dialogues).
