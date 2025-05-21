@@ -16,6 +16,9 @@
 * На простых вопросах результаты оказались удовлетворительными.
 
 ## Файл GPT
+
+[Код в colab](https://colab.research.google.com/github/pavelpryadokhin/Transformer-BERT-GPT/blob/main/GPT.ipynb)
+
 Мы использовали [предварительно обученную модель GPT2](https://huggingface.co/ai-forever/rugpt3small_based_on_gpt2) и обучили её создавать заголовки к русскоязычным новостным статьям.
 * Для обучения модели был использован [датасет от Lenta.ru](https://www.kaggle.com/datasets/yutkin/corpus-of-russian-news-articles-from-lenta).
 * Для более качественного обучения были выбраны статьи за последние три года.
